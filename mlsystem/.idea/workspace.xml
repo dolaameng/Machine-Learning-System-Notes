@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84db2d54-3c22-480c-b4a4-7a10b4685b2e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,26 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="uncertainty.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt">
+      <file leaf-file-name="voteWithUncertainty.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="57" column="88" selection-start-line="57" selection-start-column="88" selection-end-line="57" selection-end-column="88" />
+            <state relative-caret-position="450">
+              <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
               <folding>
-                <element signature="e#20#227#0" expanded="true" />
+                <element signature="e#20#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="howToUseCoroutine.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="howToUseCoroutine.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="e#20#199#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="488">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -81,9 +79,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="426" />
-    <option name="y" value="80" />
-    <option name="width" value="1400" />
+    <option name="x" value="471" />
+    <option name="y" value="73" />
+    <option name="width" value="1390" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,8 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -136,6 +132,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.study.ch02.UncertaintyKt">
+  <component name="RunManager" selected="Kotlin.study.ch02.VoteWithUncertaintyKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -190,14 +188,14 @@
       <option name="MAIN_CLASS_NAME" value="study.ch02.HowToUseCoroutineKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="study.ch02.UncertaintyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="study.ch02.VoteWithUncertaintyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mlsystem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="study.ch02.UncertaintyKt" />
+      <option name="MAIN_CLASS_NAME" value="study.ch02.VoteWithUncertaintyKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -226,12 +224,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.study.ch02.UncertaintyKt" />
+      <item itemvalue="Kotlin.study.ch02.VoteWithUncertaintyKt" />
       <item itemvalue="Kotlin.study.ch02.HowToUseCoroutineKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.study.ch02.UncertaintyKt" />
+        <item itemvalue="Kotlin.study.ch02.VoteWithUncertaintyKt" />
         <item itemvalue="Kotlin.study.ch02.HowToUseCoroutineKt" />
       </list>
     </recent_temporary>
@@ -251,21 +249,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31019524" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29067245" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18871057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13281682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -289,13 +288,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#20#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="88" selection-start-line="57" selection-start-column="88" selection-end-line="57" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-          <folding>
-            <element signature="e#20#227#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -321,22 +341,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="57" column="88" selection-start-line="57" selection-start-column="88" selection-end-line="57" selection-end-column="88" />
-          <folding>
-            <element signature="e#20#227#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="488">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="450">
+          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
           <folding>
-            <element signature="e#20#199#0" expanded="true" />
+            <element signature="e#20#155#0" expanded="true" />
           </folding>
         </state>
       </provider>

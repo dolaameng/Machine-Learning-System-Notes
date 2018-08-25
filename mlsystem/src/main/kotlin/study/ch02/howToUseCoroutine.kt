@@ -1,9 +1,10 @@
 package study.ch02
 
-import kotlinx.coroutines.experimental.async
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.experimental.*
+import java.util.concurrent.TimeUnit
 import kotlin.system.measureTimeMillis
+
+// Demonstrate some traps when I use Kotlin coroutines as a beginner.
 
 fun rightWay() {
     val xs = (1..10).map {
@@ -37,6 +38,7 @@ fun wrongWay() {
         println("run time $it")
     }
 }
+
 
 fun main(args: Array<String>) {
     println("Right way should start coroutines in parallel without suspending the main thread, and only" +
