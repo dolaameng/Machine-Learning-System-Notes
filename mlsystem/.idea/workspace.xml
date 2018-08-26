@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84db2d54-3c22-480c-b4a4-7a10b4685b2e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseAkka.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAkka.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="voteWithUncertainty.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
+      <file leaf-file-name="reactiveWithAkka.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAkka.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+            <state relative-caret-position="1824">
+              <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
               <folding>
-                <element signature="e#20#155#0" expanded="true" />
+                <element signature="e#20#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="howToUseCoroutine.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+      <file leaf-file-name="howToUseAkka.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseAkka.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="99">
+              <caret line="82" column="85" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -55,8 +55,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>supervisor</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -64,10 +70,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/play.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/uncertainty.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAka.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/tryAkka.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseAkka.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAkka.kt" />
       </list>
     </option>
   </component>
@@ -79,8 +89,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="471" />
-    <option name="y" value="73" />
+    <option name="x" value="340" />
+    <option name="y" value="277" />
     <option name="width" value="1390" />
     <option name="height" value="1000" />
   </component>
@@ -90,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -124,19 +136,14 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mlsystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;scala&#9;null&#9;null" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535082737308" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -152,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.study.ch02.VoteWithUncertaintyKt">
+  <component name="RunManager" selected="Kotlin.study.ch02.ReactiveWithAkkaKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -178,6 +185,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="study.ch02.HowToUseAkkaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mlsystem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="study.ch02.HowToUseAkkaKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="study.ch02.HowToUseCoroutineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mlsystem" />
       <option name="VM_PARAMETERS" />
@@ -186,6 +203,26 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="study.ch02.HowToUseCoroutineKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="study.ch02.ReactiveWithAkkaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mlsystem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="study.ch02.ReactiveWithAkkaKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="study.ch02.TryAkkaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mlsystem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="study.ch02.TryAkkaKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="study.ch02.VoteWithUncertaintyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -226,9 +263,15 @@
     <list>
       <item itemvalue="Kotlin.study.ch02.VoteWithUncertaintyKt" />
       <item itemvalue="Kotlin.study.ch02.HowToUseCoroutineKt" />
+      <item itemvalue="Kotlin.study.ch02.TryAkkaKt" />
+      <item itemvalue="Kotlin.study.ch02.HowToUseAkkaKt" />
+      <item itemvalue="Kotlin.study.ch02.ReactiveWithAkkaKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.study.ch02.ReactiveWithAkkaKt" />
+        <item itemvalue="Kotlin.study.ch02.HowToUseAkkaKt" />
+        <item itemvalue="Kotlin.study.ch02.TryAkkaKt" />
         <item itemvalue="Kotlin.study.ch02.VoteWithUncertaintyKt" />
         <item itemvalue="Kotlin.study.ch02.HowToUseCoroutineKt" />
       </list>
@@ -249,22 +292,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.324295" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29067245" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29067245" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13281682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23132263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -276,7 +318,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3298731" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -288,6 +330,68 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAkka.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="107" />
+          <folding>
+            <element signature="e#20#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseAkka.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAkka.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="107" />
+          <folding>
+            <element signature="e#20#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseAkka.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -327,13 +431,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/Hello.kt" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/study/HelloTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -341,19 +438,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+          <folding>
+            <element signature="e#20#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/voteWithUncertainty.kt">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+        <state relative-caret-position="1007">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/tryAkka.kt" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseCoroutine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/howToUseAkka.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="82" column="85" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/study/ch02/reactiveWithAkka.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
           <folding>
-            <element signature="e#20#155#0" expanded="true" />
+            <element signature="e#20#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
