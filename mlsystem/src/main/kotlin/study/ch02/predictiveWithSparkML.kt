@@ -1,10 +1,18 @@
 package study.ch02
 
-import org.apache.spark.SparkConf
-import org.apache.spark.api.java.JavaSparkContext
+
+
+import org.apache.spark.api.java.JavaPairRDD
+import org.apache.spark.mllib.evaluation.RegressionMetrics
+import org.apache.spark.mllib.linalg.Vectors
+import org.apache.spark.mllib.regression.LabeledPoint
+import org.apache.spark.mllib.regression.LinearRegressionWithSGD
+import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.SparkSession
+import scala.Tuple2
 import java.io.File
-import java.io.IOException
 import java.util.*
+
 
 // Using Spark ML for a simple regression problem
 
@@ -27,26 +35,49 @@ fun generateData() {
         index % 4 == 0
     }
 
-    File("data/train.file").printWriter().use { out ->
+    File("data/train.csv").printWriter().use { out ->
         trainData.forEach { (y, x12) ->
             val (x1, x2) = x12
-            out.println("$y,$x1,$x2")
+            out.println("%.2f,%.2f,%.2f".format(y, x1, x2))
         }
     }
-    File("data/test.file").printWriter().use { out ->
+    File("data/test.csv").printWriter().use { out ->
         testData.forEach { (y, x12) ->
             val (x1, x2) = x12
-            out.println("$y,$x1,$x2")
+            out.println("%.2f,%.2f,%.2f".format(y, x1, x2))
         }
     }
 }
 
 // train a model with the data stored in file
 fun buildModel() {
-    // new spark sql api starts with a session, like in tensorflow
-//    val config = SparkConf().setMaster("localhost").setAppName("predictiveWithSpark")
-    val sc = JavaSparkContext()
+    val session = SparkSession.builder()
+            .master("local[*]")
+            .appName("predictiveWithSpark")
+            .getOrCreate()
+    val trainData = session.read().csv("data/train.csv")
+            .toJavaRDD().map { row ->
+                val y = row[0].toString().toDouble()
+                val x1 = row[1].toString().toDouble()
+                val x2 = row[2].toString().toDouble()
+                LabeledPoint(y, Vectors.dense(x1, x2))
+            }.cache()
+    val numIterations = 5000
+    val model = LinearRegressionWithSGD.train(trainData.rdd(), numIterations)
+    println("Trained Model: coeffs=${model.weights()}, bias=${model.intercept()}")
 
+    val testData = session.read().csv("data/test.csv")
+            .toJavaRDD().map { row ->
+                val y = row[0].toString().toDouble()
+                val x1 = row[1].toString().toDouble()
+                val x2 = row[2].toString().toDouble()
+                LabeledPoint(y, Vectors.dense(x1, x2))
+            }.cache()
+    val testPredictionWithLabel = testData.map { point ->
+        Tuple2(model.predict(point.features()), point.label())
+    }
+    // REALLY BAD, why??
+    testPredictionWithLabel.foreach {println(it)}
 }
 
 fun main(args: Array<String>) {
